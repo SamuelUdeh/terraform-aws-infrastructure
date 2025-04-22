@@ -3,7 +3,7 @@
 
 # 🚀 Setting Up Infrastructure on AWS Using Terraform
 
-This project demonstrates how to set up a foundational infrastructure on AWS using **Terraform** — an open-source tool for Infrastructure as Code (IaC). The setup is modular, scalable, and follows best practices for creating and managing AWS resources.
+This project demonstrates how to automate the setup of cloud infrastructure on Amazon Web Services (AWS) using Terraform. It provides a comprehensive framework for deploying various AWS resources, including EC2 instances, S3 buckets, and VPC configurations, all defined through Infrastructure as Code (IaC).
 
 ---
 
@@ -33,14 +33,22 @@ This project demonstrates how to set up a foundational infrastructure on AWS usi
 
 ## 🌐 Architecture Diagram
 
-![AWS Infrastructure Terraform](./architecture.png)
+<img width="340" alt="Terraform Project Architecture" src="https://github.com/user-attachments/assets/4c5209b0-4425-4a7f-92bd-36b11ae6d0c5">
+
 
 > _This diagram shows the high-level AWS architecture deployed with Terraform._
 
 ---
 
 ## 📁 Project Structure
+```
+terraform-aws-infrastructure/ ├── modules/ │ ├── vpc/ │ ├── ec2/ │ └── s3/ ├── main.tf ├── variables.tf ├── outputs.tf ├── terraform.tfvars ├── provider.tf └── README.md
 
+```
+
+yaml
+Copy
+Edit
 
 
 The project on "Terraform Automation on AWS Infrastructure" explains how the Infrastructure as a Code (IAC) tool, Terraform, can be used to create infrastructures on Amazon Web Services. Terraform allows you to manage infrastructure with configuration files rather than through a graphical user interface. It allows you to build, change, and manage your infrastructure in a safe,consistent,and repeatable way by defining your resource configurations that you can version and reuse. 
