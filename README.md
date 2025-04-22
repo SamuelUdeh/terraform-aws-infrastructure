@@ -1,6 +1,3 @@
-# Setting Up Infrastructure On AWS Using Terraform
-<img width="340" alt="Terraform Project Architecture" src="https://github.com/user-attachments/assets/4c5209b0-4425-4a7f-92bd-36b11ae6d0c5">
-
 # 🚀 Setting Up Infrastructure on AWS Using Terraform
 
 This project demonstrates how to automate the setup of cloud infrastructure on Amazon Web Services (AWS) using Terraform. It provides a comprehensive framework for deploying various AWS resources, including EC2 instances, S3 buckets, and VPC configurations, all defined through Infrastructure as Code (IaC).
