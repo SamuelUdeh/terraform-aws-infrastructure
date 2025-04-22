@@ -1,6 +1,48 @@
 # Setting Up Infrastructure On AWS Using Terraform
 <img width="340" alt="Terraform Project Architecture" src="https://github.com/user-attachments/assets/4c5209b0-4425-4a7f-92bd-36b11ae6d0c5">
 
+# 🚀 Setting Up Infrastructure on AWS Using Terraform
+
+This project demonstrates how to set up a foundational infrastructure on AWS using **Terraform** — an open-source tool for Infrastructure as Code (IaC). The setup is modular, scalable, and follows best practices for creating and managing AWS resources.
+
+---
+
+## 🧰 Tools & Technologies
+
+- **Terraform**
+- **AWS**
+- **AWS CLI**
+- **Git**
+- **VS Code / Any code editor**
+
+---
+
+## 📦 What This Project Sets Up
+
+- **VPC** (Virtual Private Cloud)
+- **Public and Private Subnets**
+- **Internet Gateway**
+- **Route Tables**
+- **NAT Gateway**
+- **Security Groups**
+- **EC2 Instances**
+- **S3 Buckets**
+- **IAM Roles & Policies**
+
+---
+
+## 🌐 Architecture Diagram
+
+![AWS Infrastructure Terraform](./architecture.png)
+
+> _This diagram shows the high-level AWS architecture deployed with Terraform._
+
+---
+
+## 📁 Project Structure
+
+
+
 The project on "Terraform Automation on AWS Infrastructure" explains how the Infrastructure as a Code (IAC) tool, Terraform, can be used to create infrastructures on Amazon Web Services. Terraform allows you to manage infrastructure with configuration files rather than through a graphical user interface. It allows you to build, change, and manage your infrastructure in a safe,consistent,and repeatable way by defining your resource configurations that you can version and reuse. 
 
 For this project to be successfully done, an AWS account must be created, with your IAM account being set up, a Terraform installed on your machine, and an AWS CLI installed. Access keys are created, which are a necessity for you to connect AWS with Terraform.
