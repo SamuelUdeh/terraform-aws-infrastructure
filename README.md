@@ -66,9 +66,8 @@ cd terraform-aws-infrastructure
 
 ### 2. Initialize Terraform
 ```bash
-Copy
-Edit
 terraform init
+```
 
 
 The project on "Terraform Automation on AWS Infrastructure" explains how the Infrastructure as a Code (IAC) tool, Terraform, can be used to create infrastructures on Amazon Web Services. Terraform allows you to manage infrastructure with configuration files rather than through a graphical user interface. It allows you to build, change, and manage your infrastructure in a safe,consistent,and repeatable way by defining your resource configurations that you can version and reuse. 
