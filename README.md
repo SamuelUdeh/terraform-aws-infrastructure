@@ -39,7 +39,18 @@ This project demonstrates how to automate the setup of cloud infrastructure on A
 
 ## 📁 Project Structure
 ```
-terraform-aws-infrastructure/ ├── modules/ │ ├── vpc/ │ ├── ec2/ │ └── s3/ ├── main.tf ├── variables.tf ├── outputs.tf ├── terraform.tfvars ├── provider.tf └── README.md
+terraform-aws-infrastructure/
+├── modules/
+│   ├── vpc/
+│   ├── ec2/
+│   └── s3/
+├── main.tf
+├── variables.tf
+├── outputs.tf
+├── terraform.tfvars
+├── provider.tf
+└── README.md
+
 
 ```
 
