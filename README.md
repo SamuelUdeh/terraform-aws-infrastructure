@@ -76,7 +76,7 @@ terraform plan
 ```bash
 terraform apply
 ```
-### 5. Destroy Resources (Optional)
+### 5. Destroy Resources 
 ```bash
 terraform destroy
 ```
