@@ -79,12 +79,15 @@ terraform apply
 Since the EC2 instances are in public subnets and traffic flows through a load balancer:
 
 Terraform will print the URL:
-load_balancer_dns_name = my-lb-123456.us-east-1.elb.amazonaws.com
+load_balancer_dns_name = my-lb-1224074524.us-east-1.elb.amazonaws.com
 
 OR Go to EC2 > Load Balancers in your AWS Console
 
 Copy the DNS name of the Load Balancer 
-https://my-app-lb-123456.us-east-1.elb.amazonaws.com
+https://my-app-lb-1224074524.us-east-1.elb.amazonaws.com
+
+You can still check the public IP of the instances and access your application 
+http://<your-public-ip>
 
 <img width="908" alt="Project Result 2" src="https://github.com/user-attachments/assets/be212a5c-a23a-41a4-8da1-2b0b8b7848e5" />
 
@@ -107,11 +110,5 @@ https://my-app-lb-123456.us-east-1.elb.amazonaws.com
 terraform destroy
 ```
 
-The project on "Terraform Automation on AWS Infrastructure" explains how the Infrastructure as a Code (IAC) tool, Terraform, can be used to create infrastructures on Amazon Web Services. Terraform allows you to manage infrastructure with configuration files rather than through a graphical user interface. It allows you to build, change, and manage your infrastructure in a safe,consistent, and repeatable way by defining your resource configurations that you can version and reuse. 
 
-For this project to be successfully done, an AWS account must be created, with your IAM account being set up, a Terraform installed on your machine, and an AWS CLI installed. Access keys are created, which are a necessity for you to connect AWS with Terraform.
-
-The above Architetcture of the project explains the services which will be created, There is VPC, a Custom Virtual Private Cloud to have the custom configuration for networking, which is housing two subnets, the VPC is also connected to internet gateway so that Internet connection can be passed, the Route Table to define that the Internet gateway sh0uld be connected to the subnet which will be attached to a Virtual Private Cloud(VPC), it defines where traffic goes to and how it flows to the subnet, Elastic Compute Cloud(EC2) instances would be created, then grant them IAM rules, they will be attached behind the Load Balancer, then give them S3 Access. I created a security group that I attached to the EC2 instances and the Application load balancer to control the traffic that is allowed to reach and leave the resources that it is associated with. Public subnets would be created which has a route to an internet gateway, allowing instances within the subnet to communicate with the internet. The map_ip_on_launch is set to true to specify that instances launched into the subnet should be assigned a Public IP address. Target groups are created that route requests to individual registered targets, such as EC2 instances, using the protocol and port number that you specify.  You can configure health checks on a per-target-group basis. Health checks are performed on all targets registered to a target group that is specified in a listener rule for your balancer. The Listener rules determine how the load balancer routes requests to the targets in one or more target groups. The target group and the Listener rule are both attached to the Application Load Balancer(ALB). For the Output, it is used to get some information printed on the terminal; for this, the Application Load Balancer's DNS name is printed to the terminal. 
-
-NOTE: I created a Custom Virtual Private Cloud to have my custom configuration for networking. 
 
