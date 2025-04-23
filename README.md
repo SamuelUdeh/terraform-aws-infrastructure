@@ -30,12 +30,7 @@ This project demonstrates how to automate the setup of cloud infrastructure on A
 
 ## 🌐 Architecture Diagram
 
-<img width="340" alt="Terraform Project Architecture" src="https://github.com/user-attachments/assets/4c5209b0-4425-4a7f-92bd-36b11ae6d0c5">
-
 ![Architectural Diagram](https://github.com/user-attachments/assets/ce61bc38-a0a4-489b-b703-a0ed81b27ff5)
-
-
-
 
 > _This diagram shows the high-level AWS architecture deployed with Terraform._
 
