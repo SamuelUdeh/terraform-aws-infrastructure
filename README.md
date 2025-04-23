@@ -85,8 +85,7 @@ OR Go to EC2 > Load Balancers in your AWS Console
 Copy the DNS name of the Load Balancer 
 https://my-app-lb-1224074524.us-east-1.elb.amazonaws.com
 
-You can still check the public IP of the instances and access your application 
-http://<your-public-ip>
+You can still check the public IP of the instances and access your application. 
 
 <img width="908" alt="Project Result 2" src="https://github.com/user-attachments/assets/be212a5c-a23a-41a4-8da1-2b0b8b7848e5" />
 
