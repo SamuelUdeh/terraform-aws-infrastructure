@@ -52,7 +52,6 @@ terraform-aws-infrastructure/
 
 ```
 
-
 ---
 
 ##  How to Deploy
