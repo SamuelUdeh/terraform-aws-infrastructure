@@ -1,10 +1,10 @@
-# 🚀 Setting Up Infrastructure on AWS Using Terraform
+#  Setting Up Infrastructure on AWS Using Terraform
 
 This project demonstrates how to automate the setup of cloud infrastructure on Amazon Web Services (AWS) using Terraform. It provides a comprehensive framework for deploying various AWS resources, including EC2 instances, S3 buckets, and VPC configurations, all defined through Infrastructure as Code (IaC).
 
 
 
-## 🧰 Tools & Technologies
+##  Tools & Technologies
 
 - **Terraform**
 - **AWS**
@@ -14,7 +14,7 @@ This project demonstrates how to automate the setup of cloud infrastructure on A
 
 
 
-## 📦 What This Project Sets Up
+##  What This Project Sets Up
 
 - **VPC** (Virtual Private Cloud)
 - **Public and Private Subnets**
@@ -28,14 +28,14 @@ This project demonstrates how to automate the setup of cloud infrastructure on A
 
 
 
-## 🌐 Architecture Diagram
+##  Architecture Diagram
 
 ![Architectural Diagram](https://github.com/user-attachments/assets/ce61bc38-a0a4-489b-b703-a0ed81b27ff5)
 
 > _This diagram shows the high-level AWS architecture deployed with Terraform._
 
 
-## 📁 Project Structure
+##  Project Structure
 ```
 terraform-aws-infrastructure/
 ├── modules/
@@ -55,7 +55,7 @@ terraform-aws-infrastructure/
 
 ---
 
-## 🚀 How to Deploy
+##  How to Deploy
 
 ### 1. Clone the Repository
 ```bash
@@ -80,7 +80,7 @@ terraform apply
 terraform destroy
 ```
 
-The project on "Terraform Automation on AWS Infrastructure" explains how the Infrastructure as a Code (IAC) tool, Terraform, can be used to create infrastructures on Amazon Web Services. Terraform allows you to manage infrastructure with configuration files rather than through a graphical user interface. It allows you to build, change, and manage your infrastructure in a safe,consistent,and repeatable way by defining your resource configurations that you can version and reuse. 
+The project on "Terraform Automation on AWS Infrastructure" explains how the Infrastructure as a Code (IAC) tool, Terraform, can be used to create infrastructures on Amazon Web Services. Terraform allows you to manage infrastructure with configuration files rather than through a graphical user interface. It allows you to build, change, and manage your infrastructure in a safe,consistent, and repeatable way by defining your resource configurations that you can version and reuse. 
 
 For this project to be successfully done, an AWS account must be created, with your IAM account being set up, a Terraform installed on your machine, and an AWS CLI installed. Access keys are created, which are a necessity for you to connect AWS with Terraform.
 
